@@ -1,0 +1,5 @@
+Learning Points:
+
+1. To put container in center of main div put the below text in the container in CSS file:
+
+        margin: 0 auto;

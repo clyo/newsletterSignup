@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Roboto700;
+    font-weight: 700;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto400";
+    font-weight: 400;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+--Tomato: hsl(4, 100%, 67%);
+--DarkSlateGrey: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+body{
+    background-color: var(--DarkSlateGrey);
+}
+
+.container {
+    width: 42%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 2.5rem;
+    /* gap: 2rem; */
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+.hero-left {
+    display: flex;  
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: "Roboto400";
+    
+}
+
+h1 {
+    color: var(--DarkSlateGrey);
+    font-family: "Roboto700";
+}
+
+p {
+    color: var(--DarkSlateGrey);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    display: inline-block;
+    content: url(assets/images/icon-list.svg);
+    padding-right: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.emailForm {
+    display: block;
+    width: 100%;
+}
+
+.hero-right {
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
