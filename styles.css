@@ -88,3 +88,33 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.emailForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+input {
+    padding: 1rem 2rem;
+    border-radius: 0.5rem ;
+    border: solid 2px var(--Grey);
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    width: 90%;
+  }
+
+  label {
+    font: var(--DarkSlateGrey);
+    font-size: small;
+    font-weight: bold;
+  }
+
+  button {
+    width: 90%;
+    background-color: var(--DarkSlateGrey);
+    color: var(--White);
+    height: 50px;
+    border-radius: 10px;
+  }
