@@ -145,6 +145,22 @@ input {
     gap: 50px;
   }
 
+  .container_thanks {
+    width: 42%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    /* gap: 2rem; */
+    background-color: var(--White);
+    border-radius: 10px;
+}
+
+.thanks_img {
+    width: 10%;
+}
+
   @media screen and (max-width: 1300px){
     body {
         background-color: white;
