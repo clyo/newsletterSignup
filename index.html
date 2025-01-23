@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-
+  <script defer="defer" src="scripts.js"></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -28,10 +28,10 @@
         </ul>
         <form class="emailForm">
           <div>
-            <label for="email">Email address</label>
+            <label id="emailLabel" for="email">Email address</label>
             <input type="text" name="email" id="email" placeholder="email@company.com"></input>
           </div>
-          <button>Subscribe to monthly newsletter</button>
+          <button id="button" type="submit">Subscribe to monthly newsletter</button>
         </form>
     </div>
 

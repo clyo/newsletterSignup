@@ -109,6 +109,7 @@ input {
     font: var(--DarkSlateGrey);
     font-size: small;
     font-weight: bold;
+    margin-right: 50px;
   }
 
   button {
@@ -117,4 +118,41 @@ input {
     color: var(--White);
     height: 50px;
     border-radius: 10px;
+    font-weight: bold;
+  }
+
+
+  button:hover {
+    background: linear-gradient(to right, hsl(4, 100%, 67%), #ff69b4);
+    cursor: pointer;
+  }
+
+  input.invalid {
+    background-color: #ffcccc;
+    border-color: #ff0000;
+    color: #ff0000;
+  }
+
+  input.valid {
+    background-color: #ccffcc;
+    border-color: #00cc00;
+    color: #00cc00;
+  }
+
+  p.error-message {
+    display: inline;
+    color: #ff0000;
+    gap: 50px;
+  }
+
+  @media screen and (max-width: 1300px){
+    body {
+        background-color: white;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
   }
