@@ -41,6 +41,8 @@ function isValidEmail(email) {
           existingError.remove();
         }
         console.log("success submit");
+        localStorage.setItem('userEmail', emailValue);
+        console.log("Email saved to localStorage:", emailValue);
         window.location.href = "thanks.html";
       }
   });
